@@ -1,5 +1,6 @@
 let element = undefined;
-let taskInput
+let taskInput;
+
 function runOnLoad()
 {
     // Create a container for us
@@ -10,7 +11,7 @@ function runOnLoad()
     // Handle adding a new task
     var addTaskButton = document.getElementById("addTask");
     addTaskButton.addEventListener("click", onClick)
-    var taskInput = document.getElementById("taskText");
+    taskInput = document.getElementById("taskText");
 }
 function onClick() {
     console.log("clicked!");
