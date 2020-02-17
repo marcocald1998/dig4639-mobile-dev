@@ -88,4 +88,3 @@ class Square extends React.Component {
     <Game />,
     document.getElementById('root')
   );
-  
