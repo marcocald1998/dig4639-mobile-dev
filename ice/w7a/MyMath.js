@@ -18,6 +18,8 @@ export function AddList(list) {
 
   //}
   for(var i = 0; i < list.length; i++){
+    if(list[i] == undefined)
+    return undefined;
     result = result+list[i];
   }
   return result;
