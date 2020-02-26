@@ -76,6 +76,8 @@ console.log(filteredArray4)
 let todoList1 = [
   { completed: true, priority: 1, content: 'Complete Demo' },
   { completed: true, priority: 2, content: 'Complete Demo 2' },
+  { completed: true, priority: 1, content: 'Complete Demo 2' },
+  { completed: true, priority: 2, content: 'Complete Demo 2' },
   { completed: false, priority: 3, content: 'Complete Demo 3' }
 ]
 
