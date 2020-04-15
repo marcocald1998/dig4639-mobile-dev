@@ -1,0 +1,106 @@
+body {
+  background: #b63a3a;
+}
+fieldset{
+  background: #ff6767;
+  border: none;
+  display: block;
+  border-radius: 6px;
+  padding-top: 0px;
+  
+}
+h1 {
+  text-align: center;
+  font-family: 'Verdana';
+  font-size: 35px;
+  margin: 10px auto 40px auto;
+  width: 50%;
+  padding: 5px;
+}
+h2{
+  font-family: 'Verdana';
+  text-align: center;
+  font-size: 30px;
+  width: 30%;
+  margin: 0px auto 10px auto; 
+  padding: 5px;
+}
+
+h4, p {
+  font-family: 'Verdana';
+  text-align: center;
+  margin: 5px;
+}
+form{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+input{
+  display: inline-block;
+  width: 60%;
+  margin: 10px;
+  border-radius: 6px;
+  height: 20px;
+  padding: 5px;
+}
+.container {
+  display: grid;
+  margin-left: 10%;
+  margin-right: 10%;
+  grid-column-gap: 18px;
+}
+.containersmall{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0px;
+  width: 30%;
+  margin: auto;
+}
+
+.card{
+  border: 1px solid #D1D3D4;
+  margin-top: 5px;
+}
+button{
+  background-color: #b63a3a;
+  color: white;
+  font-family: 'Verdana';
+  width: 20%;
+  border-radius: 6px;
+  margin: auto;
+  padding: 4px;
+}
+button:hover{
+  background-color: #ff1c1c;
+}
+.buttondiv{
+  text-align: right;
+}
+.contacts{
+  height: 97%;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .container {
+      display: grid;
+      grid-template-columns: 1fr;
+  }
+  h1 {
+      font-size: 30px;
+      margin: 5px auto 20px auto;
+      width: 90%;
+  }
+  h2{
+      font-size: 20px;
+      width: 30%;
+      margin: 0px auto 5px auto; 
+  }
+  .containersmall{
+      width: 50%;
+  }
+
+}
